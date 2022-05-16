@@ -1,0 +1,136 @@
+CRITICAL - 2022-05-16 12:41:35 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\codeigniter1\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\codeigniter1\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\codeigniter1\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\codeigniter1\spark(45): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-05-16 12:42:22 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\codeigniter1\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\codeigniter1\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\codeigniter1\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\codeigniter1\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-05-16 12:44:29 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\codeigniter1\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\codeigniter1\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\codeigniter1\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\codeigniter1\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-05-16 12:44:32 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\codeigniter1\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\codeigniter1\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\codeigniter1\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\codeigniter1\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-05-16 06:46:49 --> Undefined variable: subjudule
+#0 C:\xampp\htdocs\codeigniter1\app\Views\layout\index.php(121): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 121, Array)
+#1 C:\xampp\htdocs\codeigniter1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter1\system\Common.php(1089): CodeIgniter\View\View->render('layout/index', Array, true)
+#4 C:\xampp\htdocs\codeigniter1\app\Controllers\Home.php(13): view('layout/index', Array)
+#5 C:\xampp\htdocs\codeigniter1\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\codeigniter1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\codeigniter1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\codeigniter1\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-05-16 07:30:37 --> Undefined variable: judul
+#0 C:\xampp\htdocs\codeigniter1\app\Views\mahasiswa\viewdata.php(4): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 4, Array)
+#1 C:\xampp\htdocs\codeigniter1\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter1\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\codeigniter1\system\Common.php(1089): CodeIgniter\View\View->render('mahasiswa/viewd...', Array, true)
+#4 C:\xampp\htdocs\codeigniter1\app\Controllers\Mahasiswa.php(16): view('mahasiswa/viewd...')
+#5 C:\xampp\htdocs\codeigniter1\system\CodeIgniter.php(832): App\Controllers\Mahasiswa->index()
+#6 C:\xampp\htdocs\codeigniter1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#7 C:\xampp\htdocs\codeigniter1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\codeigniter1\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-05-16 09:30:21 --> Undefined property: App\Controllers\Mahasiswa::$barang
+#0 C:\xampp\htdocs\codeigniter1\app\Controllers\Mahasiswa.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\codeigniter1\system\CodeIgniter.php(832): App\Controllers\Mahasiswa->index()
+#2 C:\xampp\htdocs\codeigniter1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#3 C:\xampp\htdocs\codeigniter1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\codeigniter1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\codeigniter1\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-16 09:30:57 --> Undefined property: App\Controllers\Mahasiswa::$modelMahasiswa
+#0 C:\xampp\htdocs\codeigniter1\app\Controllers\Mahasiswa.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\codeigniter1\system\CodeIgniter.php(832): App\Controllers\Mahasiswa->index()
+#2 C:\xampp\htdocs\codeigniter1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#3 C:\xampp\htdocs\codeigniter1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\codeigniter1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\codeigniter1\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-16 09:30:59 --> Undefined property: App\Controllers\Mahasiswa::$modelMahasiswa
+#0 C:\xampp\htdocs\codeigniter1\app\Controllers\Mahasiswa.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\codeigniter1\system\CodeIgniter.php(832): App\Controllers\Mahasiswa->index()
+#2 C:\xampp\htdocs\codeigniter1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#3 C:\xampp\htdocs\codeigniter1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\codeigniter1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\codeigniter1\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-16 09:31:38 --> Undefined property: App\Controllers\Mahasiswa::$modelMahasiswa
+#0 C:\xampp\htdocs\codeigniter1\app\Controllers\Mahasiswa.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\codeigniter1\system\CodeIgniter.php(832): App\Controllers\Mahasiswa->index()
+#2 C:\xampp\htdocs\codeigniter1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#3 C:\xampp\htdocs\codeigniter1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\codeigniter1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\codeigniter1\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-16 09:37:55 --> Undefined property: App\Controllers\Mahasiswa::$modelMahasiswa
+#0 C:\xampp\htdocs\codeigniter1\app\Controllers\Mahasiswa.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\codeigniter1\system\CodeIgniter.php(832): App\Controllers\Mahasiswa->index()
+#2 C:\xampp\htdocs\codeigniter1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#3 C:\xampp\htdocs\codeigniter1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\codeigniter1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\codeigniter1\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-16 09:37:57 --> Undefined property: App\Controllers\Mahasiswa::$modelMahasiswa
+#0 C:\xampp\htdocs\codeigniter1\app\Controllers\Mahasiswa.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\codeigniter1\system\CodeIgniter.php(832): App\Controllers\Mahasiswa->index()
+#2 C:\xampp\htdocs\codeigniter1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#3 C:\xampp\htdocs\codeigniter1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\codeigniter1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\codeigniter1\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-16 09:38:06 --> Undefined property: App\Controllers\Mahasiswa::$modelMahasiswa
+#0 C:\xampp\htdocs\codeigniter1\app\Controllers\Mahasiswa.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\codeigniter1\system\CodeIgniter.php(832): App\Controllers\Mahasiswa->index()
+#2 C:\xampp\htdocs\codeigniter1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#3 C:\xampp\htdocs\codeigniter1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\codeigniter1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\codeigniter1\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-16 09:38:07 --> Undefined property: App\Controllers\Mahasiswa::$modelMahasiswa
+#0 C:\xampp\htdocs\codeigniter1\app\Controllers\Mahasiswa.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\codeigniter1\system\CodeIgniter.php(832): App\Controllers\Mahasiswa->index()
+#2 C:\xampp\htdocs\codeigniter1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#3 C:\xampp\htdocs\codeigniter1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\codeigniter1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\codeigniter1\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-16 09:38:37 --> Undefined property: App\Controllers\Mahasiswa::$modelMahasiswa
+#0 C:\xampp\htdocs\codeigniter1\app\Controllers\Mahasiswa.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\codeigniter1\system\CodeIgniter.php(832): App\Controllers\Mahasiswa->index()
+#2 C:\xampp\htdocs\codeigniter1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#3 C:\xampp\htdocs\codeigniter1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\codeigniter1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\codeigniter1\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-16 09:38:40 --> Undefined property: App\Controllers\Mahasiswa::$modelMahasiswa
+#0 C:\xampp\htdocs\codeigniter1\app\Controllers\Mahasiswa.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\codeigniter1\system\CodeIgniter.php(832): App\Controllers\Mahasiswa->index()
+#2 C:\xampp\htdocs\codeigniter1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#3 C:\xampp\htdocs\codeigniter1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\codeigniter1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\codeigniter1\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-16 09:39:25 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ']'
+#0 C:\xampp\htdocs\codeigniter1\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('mahasiswa/index')
+#1 C:\xampp\htdocs\codeigniter1\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('mahasiswa/index')
+#2 C:\xampp\htdocs\codeigniter1\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\codeigniter1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\codeigniter1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\codeigniter1\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
